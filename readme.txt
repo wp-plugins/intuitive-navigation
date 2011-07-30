@@ -14,11 +14,11 @@ Creates navigation to next and previous posts specific to the category or tag a 
 
 Features overview:
 1. Add next/previous navigation links to your post specific to the category or tag a visitor came from.
-2. Optionally highlight referrer link occurrances on page.
-3. Insert navigation automatically above or below post content or use a custom function - addIntNav().
-4. Choose wheather navigation should contain labels and post thumbnails.
-5. Swap next and previous links mirror-wise.
-6. Optionally load navigation links in a frame if you're using caching plugins on your site.
+1. Optionally highlight referrer link occurrances on page.
+1. Insert navigation automatically above or below post content or use a custom function - addIntNav().
+1. Choose wheather navigation should contain labels and post thumbnails.
+1. Swap next and previous links mirror-wise.
+1. Optionally load navigation links in a frame if you're using caching plugins on your site.
 
 Links: [Author's Site](http://www.denisbuka.ru)
 
