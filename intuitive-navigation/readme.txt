@@ -4,7 +4,7 @@ Donate link: http://www.denisbuka.ru
 Tags: navigation, previous, next, referrer, category, tag, links
 Requires at least: 3.2
 Tested up to: 3.2
-Stable tag: 0.1
+Stable tag: 1.0
 
 Creates navigation to next and previous posts based on the category or tag a visitor came from.
 
@@ -13,12 +13,12 @@ Creates navigation to next and previous posts based on the category or tag a vis
 Creates navigation to next and previous posts specific to the category or tag a visitor came from. You can embed the navigation automatically or use a custom function addIntNav() in your template files. Customize the appearance with post thumbnails and labels. Swap next and previous post links mirror-wise. Bold links to the current category or tag. Optimized for use with caching plugins.
 
 Features overview:
-*	Add next/previous navigation links to your post specific to the category or tag a visitor came from.
-*	Optionally highlight referrer link occurrances on page.
-*	Insert navigation automatically above or below post content or use a custom function - addIntNav().
-*	Choose wheather navigation should contain labels and post thumbnails.
-*	Swap next and previous links mirror-wise.
-*	Optionally load navigation links in a frame if you're using caching plugins on your site.
+* Add next/previous navigation links to your post specific to the category or tag a visitor came from.
+* Optionally highlight referrer link occurrances on page.
+* Insert navigation automatically above or below post content or use a custom function - addIntNav().
+* Choose wheather navigation should contain labels and post thumbnails.
+* Swap next and previous links mirror-wise.
+* Optionally load navigation links in a frame if you're using caching plugins on your site.
 
 Links: [Author's Site](http://www.denisbuka.ru)
 
@@ -39,6 +39,9 @@ None so far.
 == Upgrade Notice ==
 
 == Screenshots ==
+
+1. Front-end example
+2. Settings admin page
 
 == Changelog ==
 
