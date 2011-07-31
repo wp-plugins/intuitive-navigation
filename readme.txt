@@ -13,6 +13,7 @@ Creates navigation to next and previous posts based on the category or tag a vis
 Creates navigation to next and previous posts specific to the category or tag a visitor came from. You can embed the navigation automatically or use a custom function addIntNav() in your template files. Customize the appearance with post thumbnails and labels. Swap next and previous post links mirror-wise. Bold links to the current category or tag. Optimized for use with caching plugins.
 
 Features overview:
+
 1. Add next/previous navigation links to your post specific to the category or tag a visitor came from.
 2. Optionally highlight referrer link occurrances on page.
 3. Insert navigation automatically above or below post content or use a custom function - addIntNav().
@@ -26,7 +27,7 @@ Links: [Author's Site](http://www.denisbuka.ru)
 
 1. Unzip the archive and put the folder into your plugins folder (/wp-content/plugins/).
 2. Activate the plugin from the Plugins admin menu.
-3. Go to Settings -> Intuitive Navigation to set some options or place `if ( function_exists( 'addIntNav' ) ) { addIntNav(); }` in your templates.
+3. Go to Settings -> Intuitive Navigation to set some options or place `<?php if ( function_exists( 'addIntNav' ) ) { addIntNav(); } ?>` in your templates.
 
 = Basic usage =
 
