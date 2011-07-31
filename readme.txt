@@ -37,7 +37,7 @@ You can embed the navigation automatically or use a custom function `addIntNav()
 
 = How do I add Intuitive Navigation to my theme? =
 
-Simply place this snippet of code into your theme templace file `<?php if ( function_exists( 'addIntNav' ) ) { addIntNav(); } ?>`
+Simply place this snippet of code into your theme's template file `<?php if ( function_exists( 'addIntNav' ) ) { addIntNav(); } ?>`
 
 == Upgrade Notice ==
 
