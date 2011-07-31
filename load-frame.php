@@ -13,7 +13,7 @@ $p = initIntNav ();
 		<link rel="stylesheet" href="<?php echo trim( $options['int_nav_style_url'] ); ?>" type="text/css" media="screen" />
 	<?php } ?>
 </head>
-<body>
+<body class="int-nav-body">
 <?php 
 buildIntNav( $p ); 
 ?>
