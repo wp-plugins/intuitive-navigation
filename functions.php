@@ -82,10 +82,10 @@ function initIntNav () {
 	return $p;
 }
 
-function loadIntJS() { 
-	?><script type="text/javascript" src="<?php echo get_bloginfo('url'); ?>/wp-content/plugins/intuitive-navigation/int-nav-script.js"></script><?php
-}
-add_action( 'wp_head', 'loadIntJS' );
+function loadIntJS() {
+    wp_enqueue_script( 'int-nav-script', '/wp-content/plugins/intuitive-navigation/int-nav-script.js');
+}    
+add_action('init', 'loadIntJS');
 
 function get_the_slug() {
 	global $post;

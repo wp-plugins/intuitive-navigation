@@ -3,7 +3,7 @@
 Plugin Name: Intuitive Navigation
 Plugin URI: http://www.denisbuka.ru/intuitive-navigation
 Description: Creates navigation to next and previous posts specific to the category or tag a visitor came from. You can embed the navigation automatically or use a custom function <code>addIntNav()</code> in your template files. Customize the appearance with post thumbnails and labels. Swap next and previous post links mirror-wise. Bold links to the current category or tag. Optimized for use with caching plugins.
-Version: 0.2
+Version: 0.3
 Author: Denis Buka
 Author URI: http://www.denisbuka.ru
 
@@ -77,14 +77,14 @@ function int_nav_render_form() {
 				<tr>
 					<th scope="row" style="width:270px;"><strong>Crop thumbnails:</strong></th>
 					<td>
-						<label><input name="int_nav_options[int_nav_crop_thumbs]" type="checkbox" value="1" <?php if (isset($options['int_nav_crop_thumbs'])) { checked('1', $options['int_nav_crop_thumbs']); } ?> /> <em>&nbsp;&nbsp;&nbsp;NB: your theme may override this setting</label>
+						<label><input name="int_nav_options[int_nav_crop_thumbs]" type="checkbox" value="1" <?php if (isset($options['int_nav_crop_thumbs'])) { checked('1', $options['int_nav_crop_thumbs']); } ?> /> <em>&nbsp;&nbsp;&nbsp;NB: Your theme may override this setting.</label>
 					</td>
 				</tr>
 				
 				<tr>
 					<th scope="row" style="width:270px;"><strong>Bold links to the currently viewed category/tag:</strong></th>
 					<td>
-						<label><input name="int_nav_options[int_nav_bold]" type="checkbox" value="1" <?php if (isset($options['int_nav_bold'])) { checked('1', $options['int_nav_bold']); } ?> /></label>
+						<label><input name="int_nav_options[int_nav_bold]" type="checkbox" value="1" <?php if (isset($options['int_nav_bold'])) { checked('1', $options['int_nav_bold']); } ?> /> <em>&nbsp;&nbsp;&nbsp;Bold-highlighted links can be further styled by reference to <code style="font-style:normal;">strong.int_nav_strong</code> in your CSS file</label>
 					</td>
 				</tr>
 
@@ -138,7 +138,7 @@ function int_nav_render_form() {
 				<tr>
 					<th scope="row" style="width:270px;"><strong>Load main stylesheet in the frame:</strong><br /><em>(if previous option is selected)</em></th>
 					<td>
-						<label><input name="int_nav_options[int_nav_style]" type="checkbox" value="1" <?php if (isset($options['int_nav_style'])) { checked('1', $options['int_nav_style']); } ?> /></label>
+						<label><input name="int_nav_options[int_nav_style]" type="checkbox" value="1" <?php if (isset($options['int_nav_style'])) { checked('1', $options['int_nav_style']); } ?> /> <em>&nbsp;&nbsp;&nbsp;NB: Keep in mind that the frame content won't inherit any styles from the parent page.</label>
 					</td>
 				</tr>
 			<?php if ( trim($options['int_nav_style_url']) == "" ) { ?>

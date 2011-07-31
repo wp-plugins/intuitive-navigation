@@ -10,7 +10,7 @@
 					var elem = aElems[i];
 					var text = elem.innerHTML;
 					if ( (elem.href.indexOf(curlink) != -1) && (curlink != '') ) {
-						elem.innerHTML = '<strong class="int_strong">' + text + '</strong>';
+						elem.innerHTML = '<strong class="int_nav_strong">' + text + '</strong>';
 					}
 				}
 				f = 1;
