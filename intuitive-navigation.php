@@ -84,7 +84,7 @@ function int_nav_render_form() {
 				<tr>
 					<th scope="row" style="width:270px;"><strong>Bold links to the currently viewed category/tag:</strong></th>
 					<td>
-						<label><input name="int_nav_options[int_nav_bold]" type="checkbox" value="1" <?php if (isset($options['int_nav_bold'])) { checked('1', $options['int_nav_bold']); } ?> /> <em>&nbsp;&nbsp;&nbsp;Bold-highlighted links can be further styled by reference to <code style="font-style:normal;">strong.int_nav_strong</code> in your CSS file</label>
+						<label><input name="int_nav_options[int_nav_bold]" type="checkbox" value="1" <?php if (isset($options['int_nav_bold'])) { checked('1', $options['int_nav_bold']); } ?> /> <em>&nbsp;&nbsp;&nbsp;Bold-highlighted links can be further styled by referencing <code style="font-style:normal;">strong.int_nav_strong</code> in your CSS file</label>
 					</td>
 				</tr>
 
