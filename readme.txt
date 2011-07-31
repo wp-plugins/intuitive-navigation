@@ -12,7 +12,8 @@ Creates navigation to next and previous posts based on the category or tag a vis
 
 Creates navigation to next and previous posts specific to the category or tag a visitor came from. You can embed the navigation automatically or use a custom function addIntNav() in your template files. Customize the appearance with post thumbnails and labels. Swap next and previous post links mirror-wise. Bold links to the current category or tag. Optimized for use with caching plugins.
 
-Features overview:
+**Features overview:**
+
 1. Add next/previous navigation links to your post specific to the category or tag a visitor came from.
 1. Optionally highlight referrer link occurrances on page.
 1. Insert navigation automatically above or below post content or use a custom function - addIntNav().
