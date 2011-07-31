@@ -4,7 +4,7 @@ Donate link: http://www.denisbuka.ru
 Tags: navigation, previous, next, referrer, category, tag, links
 Requires at least: 3.2
 Tested up to: 3.2
-Stable tag: 1.0
+Stable tag: 0.1
 
 Creates navigation to next and previous posts based on the category or tag a visitor came from.
 
