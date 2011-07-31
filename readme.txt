@@ -14,12 +14,12 @@ Creates navigation to next and previous posts specific to the category or tag a 
 
 **Features overview:**
 
-1. Add next/previous navigation links to your post specific to the category or tag a visitor came from.
-1. Optionally highlight referrer link occurrances on page.
-1. Insert navigation automatically above or below post content or use a custom function - addIntNav().
-1. Choose wheather navigation should contain labels and post thumbnails.
-1. Swap next and previous links mirror-wise.
-1. Optionally load navigation links in a frame if you're using caching plugins on your site.
+* Add next/previous navigation links to your post specific to the category or tag a visitor came from.   
+* Optionally highlight referrer link occurrances on page.   
+* Insert navigation automatically above or below post content or use a custom function - `addIntNav()`.   
+* Choose wheather navigation should contain labels and post thumbnails.   
+* Swap next and previous links mirror-wise.   
+* Optionally load navigation links in a frame if you're using caching plugins on your site.   
 
 Links: [Author's Site](http://www.denisbuka.ru)
 
@@ -27,15 +27,17 @@ Links: [Author's Site](http://www.denisbuka.ru)
 
 1. Unzip the archive and put the folder into your plugins folder (/wp-content/plugins/).
 2. Activate the plugin from the Plugins admin menu.
-3. Go to Settings -> Intuitive Navigation to set some options or place `if ( function_exists( 'addIntNav' ) ) { addIntNav(); }` in your templates.
+3. Go to Settings -> Intuitive Navigation to set some options or place `<?php if ( function_exists( 'addIntNav' ) ) { addIntNav(); } ?>` in your templates.
 
 = Basic usage =
 
-You can embed the navigation automatically or use a custom function <code>addIntNav()</code> in your template files.
+You can embed the navigation automatically or use a custom function `addIntNav()` in your template files.
 
 == Frequently Asked Questions ==
 
-None so far.
+= How do I add Intuitive Navigation to my theme? =
+
+Simply place this snippet of code into your theme templace file `<?php if ( function_exists( 'addIntNav' ) ) { addIntNav(); } ?>`
 
 == Upgrade Notice ==
 
@@ -46,12 +48,12 @@ None so far.
 
 == Changelog ==
 
-= 0.1 =
-* Initial release
+= 0.3 =
+* Improved header script addition
+* Improved admin options page
 
 = 0.2 =
 * Minor corrections
 
-= 0.3 =
-* Improved header script addition
-* Improved admin options page
+= 0.1 =
+* Initial release
