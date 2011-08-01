@@ -2,12 +2,7 @@
 function addIntNav() { 
 	$options = get_option('int_nav_options');
 	if ( $options['int_nav_frame'] == 1 ) { ?>
-	<script type="text/javascript">
-		document.write('<iframe seamless frameborder=0 scrolling=no width="100%"<?php if ( ( $options['int_nav_height'] != 0 ) ) { ?> height="<?php echo $options['int_nav_height']; ?>px"<?php } ?> src="<?php echo get_bloginfo('url'); ?>/wp-content/plugins/intuitive-navigation/load-frame.php?post_id=<?php the_ID(); ?>&term_id=' + Get_Cookie( 'int_nav_term_id' ) + '&taxonomy=' + Get_Cookie( 'int_nav_term_taxonomy' ) + '" name="int_nav_frame" id="int_nav_frame"></iframe>');
-	</script>
-	<noscript>
-		<iframe seamless frameborder=0 scrolling=no width="100%"<?php if ( ( $options['int_nav_height'] != 0 ) ) { ?> height="<?php echo $options['int_nav_height']; ?>px"<?php } ?> src="<?php echo get_bloginfo('url'); ?>/wp-content/plugins/intuitive-navigation/load-frame.php?post_id=<?php the_ID(); ?>" name="int_nav_frame" id="int_nav_frame"></iframe>
-	</noscript>
+	<iframe seamless frameborder=0 scrolling=no width="100%"<?php if ( ( $options['int_nav_height'] != 0 ) ) { ?> height="<?php echo $options['int_nav_height']; ?>px"<?php } ?> src="<?php echo WP_PLUGIN_URL; ?>/intuitive-navigation/load-frame.php?post_id=<?php the_ID(); ?>" name="int_nav_frame" id="int_nav_frame"></iframe>
 	<?php } else {
 		$p = initIntNav();
 		buildIntNav( $p );
@@ -50,13 +45,13 @@ function initIntNav () {
 	$options = get_option('int_nav_options');
 	if ( $options['int_nav_frame'] == 1 ) {
 		$post_id = $_GET['post_id'];
-		$taxonomy = $_GET['taxonomy'];
-		$term_id = $_GET['term_id'];
 	} else {
 		$post_id = get_the_ID();
-		$taxonomy = $_COOKIE['int_nav_term_taxonomy'];
-		$term_id = $_COOKIE['int_nav_term_id'];
 	}
+
+	$taxonomy = $_COOKIE['int_nav_term_taxonomy'];
+	$term_id = $_COOKIE['int_nav_term_id'];
+
 	if ( $taxonomy == "cat") {
 		if ( in_category( $term_id, $post_id )) {
 			$p = doIntuitive ( $post_id, "cat", $term_id );
@@ -83,7 +78,7 @@ function initIntNav () {
 }
 
 function loadIntJS() {
-    wp_enqueue_script( 'int-nav-script', '/wp-content/plugins/intuitive-navigation/int-nav-script.js');
+    wp_enqueue_script( 'int-nav-script', WP_PLUGIN_URL . '/intuitive-navigation/int-nav-script.js');
 }    
 add_action('init', 'loadIntJS');
 

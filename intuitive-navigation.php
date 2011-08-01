@@ -3,7 +3,7 @@
 Plugin Name: Intuitive Navigation
 Plugin URI: http://www.denisbuka.ru/intuitive-navigation
 Description: Creates navigation to next and previous posts specific to the category or tag a visitor came from. You can embed the navigation automatically or use a custom function <code>addIntNav()</code> in your template files. Customize the appearance with post thumbnails and labels. Swap next and previous post links mirror-wise. Bold links to the current category or tag. Optimized for use with caching plugins.
-Version: 0.3
+Version: 0.4
 Author: Denis Buka
 Author URI: http://www.denisbuka.ru
 
