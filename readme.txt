@@ -4,7 +4,7 @@ Donate link: http://www.denisbuka.ru
 Tags: navigation, previous, next, referrer, category, tag, links
 Requires at least: 3.2
 Tested up to: 3.2
-Stable tag: 0.4
+Stable tag: 0.5
 
 Creates navigation to next and previous posts based on the category or tag a visitor came from.
 
@@ -47,6 +47,10 @@ Simply place this snippet of code into your theme's template file `<?php if ( fu
 2. Settings admin page
 
 == Changelog ==
+
+= 0.5 =
+* Fixed encoding problem in some browsers
+* Added option to insert styles in frame's head section
 
 = 0.4 =
 * Code improvements
