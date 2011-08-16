@@ -169,7 +169,14 @@ function int_nav_render_form() {
       </p>
     </form>
 
-  </div>
+	<br />
+	<hr />
+	<h3>My other plugins:</h3>
+	<ul>
+		<li><a href="http://wordpress.org/extend/plugins/generate-cache/">Generate Cache</a></li>   
+		<li><a href="http://wordpress.org/extend/plugins/drop-in-dropbox/">Drop in Dropbox</a></li>   
+	</ul>
+</div>
   <?php  
 }
 
