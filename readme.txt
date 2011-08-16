@@ -21,6 +21,12 @@ Creates navigation to next and previous posts specific to the category or tag a 
 * Swap next and previous links mirror-wise.   
 * Optionally load navigation links in a frame if you're using caching plugins on your site.   
 
+
+**My other plugins:**   
+
+* Generate Cache (http://wordpress.org/extend/plugins/generate-cache/)   
+* Drop in Dropbox (http://wordpress.org/extend/plugins/drop-in-dropbox/)   
+
 Links: [Author's Site](http://www.denisbuka.ru)
 
 == Installation ==
