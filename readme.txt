@@ -1,10 +1,10 @@
 === Intuitive Navigation ===
 Contributors: Denis Buka
-Donate link: http://www.denisbuka.ru
+Donate link: http://steamingkettle.net
 Tags: navigation, previous, next, referrer, category, tag, links
 Requires at least: 3.2
 Tested up to: 3.2
-Stable tag: 0.5
+Stable tag: 0.5.1
 
 Creates navigation to next and previous posts based on the category or tag a visitor came from.
 
@@ -27,7 +27,7 @@ Creates navigation to next and previous posts specific to the category or tag a 
 * Generate Cache (http://wordpress.org/extend/plugins/generate-cache/)   
 * Drop in Dropbox (http://wordpress.org/extend/plugins/drop-in-dropbox/)   
 
-Links: [Author's Site](http://www.denisbuka.ru)
+Links: [Steaming Kettle Website Design & Video Production Studio](http://steamingkettle.net)   
 
 == Installation ==
 

@@ -1,13 +1,13 @@
 <?php
 /*
 Plugin Name: Intuitive Navigation
-Plugin URI: http://www.denisbuka.ru/intuitive-navigation
+Plugin URI: http://steamingkettle.net/web-design/wordpress-plugins/
 Description: Creates navigation to next and previous posts specific to the category or tag a visitor came from. You can embed the navigation automatically or use a custom function <code>addIntNav()</code> in your template files. Customize the appearance with post thumbnails and labels. Swap next and previous post links mirror-wise. Bold links to the current category or tag. Optimized for use with caching plugins.
-Version: 0.5
+Version: 0.5.1
 Author: Denis Buka
-Author URI: http://www.denisbuka.ru
+Author URI: http://steamingkettle.net
 
-Copyright (C) 2011 www.denisbuka.ru
+Copyright (C) 2011 SteamingKettle.net
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
