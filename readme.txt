@@ -4,7 +4,7 @@ Donate link: http://steamingkettle.net
 Tags: navigation, previous, next, referrer, category, tag, links
 Requires at least: 3.2
 Tested up to: 3.2
-Stable tag: 0.5.1
+Stable tag: 0.6
 
 Creates navigation to next and previous posts based on the category or tag a visitor came from.
 
@@ -53,6 +53,9 @@ Simply place this snippet of code into your theme's template file `<?php if ( fu
 2. Settings admin page
 
 == Changelog ==
+
+= 0.6 =
+* Improved compatibility
 
 = 0.5 =
 * Fixed encoding problem in some browsers

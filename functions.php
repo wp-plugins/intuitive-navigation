@@ -11,7 +11,7 @@ function addIntNav() {
 function buildIntNav( $p ) { 
 	$options = get_option('int_nav_options');
 ?>
-	<div class="int-nav">
+	<div id="int-nav">
 		<table width="100%"<?php if ( ( $options['int_nav_height'] != 0 ) ) { ?> style="height:<?php echo $options['int_nav_height']; ?>px;"<?php } ?> class="int-nav-table"><tr>
 	<?php if ( $p['no_next'] != TRUE ) { ?>
 		<?php if ( ( $options['int_nav_display_thumbs'] == 1 ) && ( $p['next']['img'] != '' ) ) { ?>

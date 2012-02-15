@@ -1,4 +1,4 @@
-<?php require( $_SERVER['DOCUMENT_ROOT'] . '/wp-load.php' ); ?>
+<?php require( '../../../wp-load.php' ); ?>
 <?php
 $options = get_option('int_nav_options');
 $p = initIntNav (); 
